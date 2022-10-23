@@ -1,0 +1,7 @@
+.site-nav a {
+    color: black;
+}
+
+.site-nav a:hover {
+    color: blue;
+}
