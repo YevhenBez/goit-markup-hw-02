@@ -3,6 +3,7 @@
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:focus,
+.site-nav a:active {
     color: #2196F3;
 }
