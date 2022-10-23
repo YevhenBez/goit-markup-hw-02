@@ -1,7 +1,7 @@
 .site-nav a {
-    color: black;
+    color: #212121;
 }
 
 .site-nav a:hover {
-    color: blue;
+    color: #2196F3;
 }
