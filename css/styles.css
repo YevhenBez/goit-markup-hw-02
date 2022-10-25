@@ -1,9 +1,34 @@
+.logo {
+    color: #2196F3;
+    font-size: 26px;
+}
+
+.logo > .logo-black {
+    color: #000000;
+}
+
 .site-nav a {
     color: #212121;
+    font-size: 14px;
 }
 
 .site-nav a:hover,
 .site-nav a:focus,
 .site-nav a:active {
     color: #2196F3;
+}
+
+.list-contacts a {
+    color: #757575;
+    font-size: 14px;
+}
+
+.list-contacts a:hover,
+.list-contacts a:focus,
+.list-contacts a:active {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
 }
