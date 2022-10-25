@@ -1,7 +1,11 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --button-bg-color: #F5F4FA;
+    --button-accent-color: #FFFFFF;
 }
 
 .page {
@@ -13,7 +17,7 @@ ul {
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
     /* font-size: 26px; */
 }
 
@@ -24,7 +28,7 @@ ul {
 /* Site nav */
 
 .site-nav a {
-    color: #212121;
+    color: var(--title-text-color);
     /* font-size: 14px; */
 }
 
@@ -48,7 +52,7 @@ ul {
 /* Hero */
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--button-accent-color);
 }
 
 /* Section */
@@ -69,8 +73,20 @@ ul {
     color: var(--title-text-color);
 }
 
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-bg-color);
+}
+
+.button:hover,
+.button:focus,
+.button:active,
+.hero-button {
+    color: var(--button-accent-color);
+    background-color: var(--accent-color);
+}
 
 
 
