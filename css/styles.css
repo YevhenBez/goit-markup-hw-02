@@ -38,6 +38,10 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link-current {
+    color: var(--accent-color);
+}
+
 .list-contacts a {
     color: var(--primary-text-color);
     /* font-size: 14px; */
