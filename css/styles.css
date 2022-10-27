@@ -92,5 +92,15 @@ ul {
     background-color: var(--accent-color);
 }
 
+/* filter */
+
+.filter-title {
+    color: var(--title-text-color);
+}
+
+.filter-text {
+    color: var(--primary-text-color);
+}
+
 
 
