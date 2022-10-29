@@ -11,7 +11,6 @@
 }
 
 .page {
-    background-color: var(--primary-white-color) ;
     color: var(--primary-text-color);
 
     font-family: Roboto, sans-serif;
@@ -128,6 +127,10 @@ ul {
 
 /* works and Staff */
 
+.section {
+    background-color: var(--button-bg-color);
+}
+
 .section-title {
     color: var(--title-text-color);
     
@@ -157,6 +160,12 @@ ul {
 .button {
     color: var(--title-text-color);
     background-color: var(--button-bg-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
